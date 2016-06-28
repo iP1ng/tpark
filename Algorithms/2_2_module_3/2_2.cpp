@@ -89,7 +89,7 @@ void binary_delete(BNode* root) {
 			s.push(node->left);
 		}
 		delete node;
-		node = nullptr;
+		node = NULL;
 	}
 };
 
